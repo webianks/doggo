@@ -1,4 +1,4 @@
-package com.example.doggo.ui.components
+package com.example.androiddevchallenge.ui.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.BorderStroke
@@ -20,8 +20,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.doggo.data.Doggo
-import com.example.doggo.ui.theme.purpleAlpha20
+import com.example.androiddevchallenge.data.Doggo
+import com.example.androiddevchallenge.ui.theme.purpleAlpha20
 
 
 @Composable

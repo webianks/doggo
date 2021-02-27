@@ -1,4 +1,4 @@
-package com.example.doggo.ui.components
+package com.example.androiddevchallenge.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
-import com.example.doggo.data.Doggo
+import com.example.androiddevchallenge.data.Doggo
 
 @Composable
 fun Banner(doggo: Doggo) {

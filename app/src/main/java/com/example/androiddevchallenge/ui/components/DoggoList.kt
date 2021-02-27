@@ -1,8 +1,8 @@
-package com.example.doggo.ui.components
+package com.example.androiddevchallenge.ui.components
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
-import com.example.doggo.data.Doggo
+import com.example.androiddevchallenge.data.Doggo
 
 @Composable
 fun DoggoList(doggos: List<Doggo>, navigateToDetailsScreen: (Doggo) -> Unit) {

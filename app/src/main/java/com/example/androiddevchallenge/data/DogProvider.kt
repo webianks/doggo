@@ -1,6 +1,6 @@
-package com.example.doggo.data
+package com.example.androiddevchallenge.data
 
-import com.example.doggo.R
+import com.example.androiddevchallenge.R
 
 class Doggo(val id: String,val name: String, val description: String, val about: String, val image: Int)
 

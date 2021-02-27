@@ -1,4 +1,4 @@
-package com.example.doggo.ui.theme
+package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

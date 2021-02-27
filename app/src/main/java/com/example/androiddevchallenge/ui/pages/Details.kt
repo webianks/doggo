@@ -1,4 +1,4 @@
-package com.example.doggo.ui.pages
+package com.example.androiddevchallenge.ui.pages
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -28,8 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.doggo.data.Doggo
-import com.example.doggo.ui.components.Banner
+import com.example.androiddevchallenge.data.Doggo
+import com.example.androiddevchallenge.ui.components.Banner
 import java.util.Locale
 
 @Composable

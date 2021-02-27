@@ -1,4 +1,4 @@
-package com.example.doggo
+package com.example.androiddevchallenge
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
@@ -9,10 +9,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
-import com.example.doggo.data.DogProvider
-import com.example.doggo.ui.pages.DetailsScreen
-import com.example.doggo.ui.pages.HomeScreen
-import com.example.doggo.ui.theme.DoggoAppTheme
+import com.example.androiddevchallenge.data.DogProvider
+import com.example.androiddevchallenge.ui.pages.DetailsScreen
+import com.example.androiddevchallenge.ui.pages.HomeScreen
+import com.example.androiddevchallenge.ui.theme.DoggoAppTheme
 
 const val TITLE: String = "Pet a doggo"
 
