@@ -1,5 +1,6 @@
 # Adopt a doggo
 
+![Workflow result](https://github.com/webianks/doggo/workflows/Check/badge.svg)
 
 ## :scroll: Description
 A submission for the #AndroidDevChallenge Jetpack Compose.
