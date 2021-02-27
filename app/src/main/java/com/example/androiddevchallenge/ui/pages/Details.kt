@@ -67,7 +67,6 @@ fun DetailsScreen(
     }
 }
 
-
 @Composable
 private fun Details(doggo: Doggo) {
     Column(

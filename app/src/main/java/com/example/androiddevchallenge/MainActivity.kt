@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 @Composable
-fun DoggoApp(){
+fun DoggoApp() {
     val navController = rememberNavController()
 
     NavHost(navController, startDestination = Navigation.HomeScreen.title) {
@@ -82,4 +82,3 @@ fun DarkPreview() {
         DoggoApp()
     }
 }
-

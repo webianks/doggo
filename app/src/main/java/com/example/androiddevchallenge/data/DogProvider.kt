@@ -17,7 +17,7 @@ package com.example.androiddevchallenge.data
 
 import com.example.androiddevchallenge.R
 
-class Doggo(val id: String,val name: String, val description: String, val about: String, val image: Int)
+class Doggo(val id: String, val name: String, val description: String, val about: String, val image: Int)
 
 object DogProvider {
     val doggos = listOf(
@@ -66,7 +66,7 @@ object DogProvider {
             "Princess",
             "Adult | Female | Small",
             "Princess is one of four sweet Chihuahua mix puppies rescued together. She and her brother Bear are still available. Princess is spayed, vaccinated, microchipped and ready for her new home.",
-             R.drawable.doggo_6
+            R.drawable.doggo_6
         ),
 
         Doggo(
@@ -74,7 +74,7 @@ object DogProvider {
             "Aspen",
             "Puppy | Male | Small | White / Cream",
             "Loving, Playful",
-             R.drawable.doggo_7
+            R.drawable.doggo_7
         ),
         Doggo(
             "8",
@@ -87,16 +87,16 @@ object DogProvider {
             "9",
             "Spenser",
             "Adult | Male | Medium | Black, White / Cream",
-           "Spencer is a very sweet loving boy who loves to cuddle and play fetch. He gets along great with other animals and children. He is In the process of growing his hair after being shaved due to him coming in matted. We recommend this boy to anyone that is looking for a great/perfect family dog.",
+            "Spencer is a very sweet loving boy who loves to cuddle and play fetch. He gets along great with other animals and children. He is In the process of growing his hair after being shaved due to him coming in matted. We recommend this boy to anyone that is looking for a great/perfect family dog.",
             R.drawable.doggo_9
         ),
         Doggo(
             "10",
             "Duke 2",
             "Young | Male | Large | White / Cream",
-           "Duke is a 1.5 year old, cattahoula mix, looking for his forever family. Duke is very affectionate, playful and eager to please. He knows certain commands, is house trained, does well on a leash and loves to play fetch. Duke can be picky with some dogs, and we are not sure how he is with cats, but he loves all people. We think Duke would enjoy the company of children in his new home. Duke is neutered, current on vaccinatoins and preventatives, and can't wait to meet you!",
+            "Duke is a 1.5 year old, cattahoula mix, looking for his forever family. Duke is very affectionate, playful and eager to please. He knows certain commands, is house trained, does well on a leash and loves to play fetch. Duke can be picky with some dogs, and we are not sure how he is with cats, but he loves all people. We think Duke would enjoy the company of children in his new home. Duke is neutered, current on vaccinatoins and preventatives, and can't wait to meet you!",
             R.drawable.doggo_10
         ),
 
-        )
+    )
 }

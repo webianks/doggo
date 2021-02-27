@@ -25,7 +25,7 @@ import com.example.androiddevchallenge.data.Doggo
 import com.example.androiddevchallenge.ui.components.DoggoList
 
 @Composable
-fun HomeScreen(title: String,navigateToDetailsScreen: (Doggo) -> Unit) {
+fun HomeScreen(title: String, navigateToDetailsScreen: (Doggo) -> Unit) {
     Scaffold(
         backgroundColor = MaterialTheme.colors.background,
         topBar = {
@@ -36,7 +36,7 @@ fun HomeScreen(title: String,navigateToDetailsScreen: (Doggo) -> Unit) {
             )
         },
         content = {
-            DoggoList(doggos = DogProvider.doggos,navigateToDetailsScreen)
-        })
-
+            DoggoList(doggos = DogProvider.doggos, navigateToDetailsScreen)
+        }
+    )
 }
